@@ -25,6 +25,16 @@ let ride2PowerOn = false
     // yellow wire is not connected
 let ride3PowerOn = false
 
+//Ride 4 has power when:
+    //ride wire is connected
+//Ride 4 is a slot machine
+    //if a 1 is rolled it should return "star"
+    //if a 2 is rolled it should return "car"
+    //if a 3 is rolled it should return "pot of gold"
+    //if a 4 is rolled it should return "clover"
+    //if a 5 is rolled it should return "bowling ball"
+    //if a 6 is rolled it should return "tiger"
+    //if a 7 is rolled it should return "seven"
 let ride4PowerOn = false
 function ride4SlotMachine(rolledNumber){
     return "nothing"

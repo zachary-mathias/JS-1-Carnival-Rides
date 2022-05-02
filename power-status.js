@@ -1,5 +1,8 @@
 
-
+let ride1PowerElement = document.querySelector("#ride-1-power")
+let ride2PowerElement = document.querySelector("#ride-2-power")
+let ride3PowerElement = document.querySelector("#ride-3-power")
+let ride4PowerElement = document.querySelector("#ride-4-power")
 if (ride1PowerOn === true) {
     ride1PowerElement.style.color = "green"
     ride1PowerElement.textContent = "Power Status: on"

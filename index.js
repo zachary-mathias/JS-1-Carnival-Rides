@@ -39,6 +39,29 @@ if(redWireConnected){
     //if a 5 is rolled it should return "bowling ball"
     //if a 6 is rolled it should return "tiger"
     //if a 7 is rolled it should return "seven"
+
 function ride4SlotMachine(rolledNumber){
-    return "nothing"
+    switch(rolledNumber){
+        case 1:
+            return 'star'
+        break
+        case 2:
+            return 'car'
+        break
+        case 3:
+            return 'pot of gold'
+        break
+        case 4:
+            return 'clover'
+        break
+        case 5:
+            return 'bowling ball'
+        break
+        case 6:
+            return 'tiger'
+        break
+        case 7:
+            return 'seven'
+        break
+    }  
 }
